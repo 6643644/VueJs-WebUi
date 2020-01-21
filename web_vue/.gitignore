@@ -1,13 +1,18 @@
 .DS_Store
-node_modules/
-/dist/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/build/
-*.md
-package-lock.json
 
+
+
+
+# 排除不需要commit的檔案
+package-lock.json
+*.md
+/build/
+node_modules/
+/dist/
 
 # Editor directories and files
 .idea
